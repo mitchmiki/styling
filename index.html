@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <title>CSS</title>
     <!-- applying internal css -->
     <style>
@@ -14,9 +17,11 @@
         font-size: 50px;
         background-color:crimson;
      }
-     p{
-        font-size:100px;
+     .one{
+        font-size:30px;
         color:red;
+        line-height: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;font-family: 'Sacramento', cursive;
      }
      ul{
         color:brown;
@@ -31,21 +36,59 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Services</a>
+      <a href="">Contact Us</a>
     <h1 style="background-color:green">INTRODUCTION TO CSS</h1> 
     <!-- applying inline css -->
-    <P style="font-size:50px; color:cornflowerblue"> Different types of CSS</P>
+    <P class="two" style="font-size:50px; color:cornflowerblue" > Different types of CSS</P>
     <ul>
         <h3>Examples of css</h3>
         <li>Internal css</li>
         <li>Inline css</li>
         <li>external css</li>
     </ul>
+    <p class="one ">Line-through each line of text has line going through.</p>
+    <p class="one">Text shadow is placed vertically,horizontally wth blur color.</p>
+    <p class="one ">Text deco is used to decorate text.</p>
     <div id="division">
         <h2>This is our first div</h2>
     </div>
-    <div class="one black sweet">
+    <div class="on black sweet">
         <h3>Hello world</h3>
     </div>
+    <img  class="new"src="https://images.pexels.com/photos/1883385/pexels-photo-1883385.jpeg?cs=srgb&dl=pexels-ylanite-koppens-1883385.jpg&fm=jpg" width="500px" height="500px">
+    <img class="old" src="https://images.pexels.com/photos/985266/pexels-photo-985266.jpeg?cs=srgb&dl=pexels-magda-ehlers-985266.jpg&fm=jpg" width="500px" height="500px">
     
+    <!-- creating table -->
+    <hr size="3" noshade="" color="maroon">
+    <table>
+      <thead>
+         <tr>
+            <th>Cohort-1</th>
+            <th>Cohort-2</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>web developing</td>
+            <td>graphic designs</td>
+         </tr>
+         <tr>
+            <td>flowers</td>
+            <td>shoes</td>
+         </tr>
+         <tr>
+            <td>cologne</td>
+            <td>clothes</td>
+         </tr>
+         <td>earings</td>
+         <td>lingerie</td>
+      </tbody>
+    </table>
+    <div>
+      <h3>Centering an element</h3>
+    </div>
 </body>
 </html>
